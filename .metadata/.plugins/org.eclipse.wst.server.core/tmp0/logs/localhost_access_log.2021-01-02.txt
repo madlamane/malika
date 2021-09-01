@@ -1,0 +1,6 @@
+127.0.0.1 - - [02/Jan/2021:18:37:27 -0600] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [02/Jan/2021:18:37:29 -0600] "GET /JSP_Servlet_JDBC_MySQL_CRUD/InsertData HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2021:18:37:44 -0600] "GET /JSP_Servlet_JDBC_MySQL_CRUD/InsertData HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [02/Jan/2021:18:38:35 -0600] "GET /JSP_Servlet_JDBC_MySQL_CRUD/InsertData HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jan/2021:19:29:28 -0600] "GET / HTTP/1.1" 404 748
+0:0:0:0:0:0:0:1 - - [02/Jan/2021:19:29:28 -0600] "GET /Mysql/WEB-INF/classes/sql/Sql.java HTTP/1.1" 404 683

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="c" class="example.College">
+	<property name="collegecode" value ="1001" />
+	<property name="collegename" value="iit" />
+	<property name="s" >
+	<set>
+	<ref bean="s2"></ref>
+	<ref bean="s3"/>
+	
+	</set>
+	</property>
+	
+	
+	</bean>
+	
+	
+	
+	<bean id="s2" class="example.Student">
+	<property name="studentid" value="102"  />
+	<property name="studentname" value="James"  />
+	
+	</bean>
+	<bean id="s3" class="example.Student">
+	<property name="studentid" value="103"  />
+	<property name="studentname" value="Sarah"  />
+	
+	</bean>
+	
+	<bean id="emp" class="collectiondemo.Employee">
+	<property name="empid" value ="1005" />
+	<property name="empname" value="Jessica" />
+	<property name="salary" value="5000" />
+	
+	
+	</bean>
+	
+	<bean id="emp1" class="collectiondemo.Employee">
+	<property name="empid" value ="1006" />
+	<property name="empname" value="Bianca" />
+	<property name="salary" value="6000" />
+	
+	
+	</bean>
+	<bean id="comp" class="collectiondemo.Company">
+	<property name="companyname" value ="Ford" />
+	<property name="address" value="Niles" />
+	<property name="emp">
+	<list>
+	<ref bean="emp"></ref>
+	<ref bean="emp1"/>
+	
+	</list>
+	</property>
+	
+	</bean>
+	
+	
+	</beans>

@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/Users/malikamadlamane/Documents/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4054747765.index
+3394561116.index
+59539698.index
+3473904077.index
+1904755640.index
